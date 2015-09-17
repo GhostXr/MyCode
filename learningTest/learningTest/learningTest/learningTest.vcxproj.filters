@@ -32,5 +32,8 @@
     <ClCompile Include="learningTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dm009_二级指针练习题2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
