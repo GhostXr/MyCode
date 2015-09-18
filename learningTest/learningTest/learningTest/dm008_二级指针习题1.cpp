@@ -31,7 +31,7 @@ int splitStr(char *myStr, char array[20][20], int *num)
 	return 0;
 }
 
-int main()
+int main008()
 {
 	int i = 0;
 	char *myStr = "absaga,asgsaedbh,swargae,asgrh,srtjhtdry,seh,asdrh,";
