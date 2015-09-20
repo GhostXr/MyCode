@@ -1,4 +1,4 @@
-﻿  dm008_二级指针习题1.cpp
+﻿  dm011_定义数组指针.cpp
 d:\vs2012\vc\include\stdlib.h(20): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
           命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
   learningTest.vcxproj -> D:\Develop\learningTest\learningTest\Debug\learningTest.exe

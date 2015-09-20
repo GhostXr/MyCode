@@ -92,6 +92,8 @@
     <ClCompile Include="dm007_玩转多级指针.cpp" />
     <ClCompile Include="dm008_二级指针习题1.cpp" />
     <ClCompile Include="dm009_二级指针练习题2.cpp" />
+    <ClCompile Include="dm010_二级指针练习题3.cpp" />
+    <ClCompile Include="dm011_定义数组指针.cpp" />
     <ClCompile Include="learningTest.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

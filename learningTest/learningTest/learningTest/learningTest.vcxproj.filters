@@ -59,5 +59,11 @@
     <ClCompile Include="dm008_二级指针习题1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dm010_二级指针练习题3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dm011_定义数组指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
