@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  结构体testCode.cpp
+  dm001_结构体基本操作.cpp
+d:\mydevelop\testcode\02结构体testcode\结构体testcode\dm001_结构体基本操作.cpp(19): warning C4091: “typedef ”: 没有声明变量时忽略“Teacher2”的左侧
+d:\mydevelop\testcode\02结构体testcode\结构体testcode\dm001_结构体基本操作.cpp(57): warning C4101: “t2”: 未引用的局部变量
+  正在生成代码...
+LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+  结构体testCode.vcxproj -> D:\myDevelop\TestCode\02结构体testCode\Debug\结构体testCode.exe
