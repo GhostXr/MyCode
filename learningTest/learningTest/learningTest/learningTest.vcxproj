@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dm009_二级指针练习题2.cpp" />
+    <ClCompile Include="dm010_二级指针练习题02.cpp" />
     <ClCompile Include="learningTest.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

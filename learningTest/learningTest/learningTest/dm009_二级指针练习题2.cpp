@@ -62,7 +62,7 @@
 
 //二级指针第三种模型实现
 
-char **getMemo(char **p, int num)
+char **getMemo009(char **p, int num)
 {
 	int i = 0;
 	char **pTemp = p;
@@ -74,7 +74,7 @@ char **getMemo(char **p, int num)
 	return pTemp;
 }
 
-void freeMemo(char **p, int num)
+void freeMemo009(char **p, int num)
 {
 	int i = 0;
 	if (p == NULL)
@@ -88,7 +88,7 @@ void freeMemo(char **p, int num)
 	free(p);
 }
 
-int splitString(char *myStr, const char splitStr, char ***myArray, int *count)
+int splitString009(char *myStr, const char splitStr, char ***myArray, int *count)
 {
 	char *str1 = myStr, *str2 = myStr;
 	char split = splitStr;
@@ -101,7 +101,7 @@ int splitString(char *myStr, const char splitStr, char ***myArray, int *count)
 		return -1;
 	}
 	
-	array = getMemo(array, 10);
+	array = getMemo009(array, 10);
 
 	do
 	{
@@ -127,7 +127,7 @@ int splitString(char *myStr, const char splitStr, char ***myArray, int *count)
 	return 0;
 }
 
-int main()
+int main009()
 {
 	int i = 0;
 	char *myStr = "asdga,dgdn,sdhrn,sdfeyrjt,sehety,sth,";
@@ -135,7 +135,7 @@ int main()
 	int count = 0, rect = 0;
 	char **newArray = NULL;
 
-	rect = splitString(myStr, splitStr, &newArray, &count);
+	rect = splitString009(myStr, splitStr, &newArray, &count);
 
 	if (rect != 0)
 	{
@@ -149,7 +149,7 @@ int main()
 	}
 	printf("array count is %d ", count);
 
-	freeMemo(newArray, 10);
+	freeMemo009(newArray, 10);
 
 	system("pause");
 	return 0;

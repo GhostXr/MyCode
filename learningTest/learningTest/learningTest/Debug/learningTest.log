@@ -1,10 +1,11 @@
-﻿生成启动时间为 2015/9/17 12:28:34。
+﻿生成启动时间为 2015/9/17 15:59:07。
      1>项目“E:\myDevelop\learningTest\learningTest\learningTest\learningTest.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\vs2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\learningTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "dm009_二级指针练习题2.cpp"
-         dm009_二级指针练习题2.cpp
+         D:\vs2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\learningTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "dm010_二级指针练习题02.cpp"
+         dm010_二级指针练习题02.cpp
        Link:
          D:\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myDevelop\learningTest\learningTest\Debug\learningTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\myDevelop\learningTest\learningTest\Debug\learningTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myDevelop\learningTest\learningTest\Debug\learningTest.lib" /MACHINE:X86 "Debug\dm009_二级指针练习题2.obj"
+         "Debug\dm010_二级指针练习题02.obj"
          Debug\learningTest.obj
          Debug\stdafx.obj
          learningTest.vcxproj -> E:\myDevelop\learningTest\learningTest\Debug\learningTest.exe
