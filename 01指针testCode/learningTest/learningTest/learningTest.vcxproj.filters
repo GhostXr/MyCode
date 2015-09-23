@@ -1,73 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+    <ClCompile Include="dm001_test1.cpp" />
+    <ClCompile Include="dm002_test2.cpp" />
+    <ClCompile Include="dm003_test3.cpp" />
+    <ClCompile Include="dm004_递归逆序.cpp" />
+    <ClCompile Include="dm005_二级指针输入第一种模型.cpp" />
+    <ClCompile Include="dm006_二级指针输入第三种模型.cpp" />
+    <ClCompile Include="dm007_玩转多级指针.cpp" />
+    <ClCompile Include="dm008_二级指针习题1.cpp" />
+    <ClCompile Include="dm009_二级指针练习题2.cpp" />
+    <ClCompile Include="dm010_二级指针练习题02.cpp" />
+    <ClCompile Include="learningTest.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="dm013_二级指针强化练习.cpp" />
+    <ClCompile Include="dm011_二级指针练习题3.cpp" />
+    <ClCompile Include="dm012_定义数组指针.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="learningTest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm009_二级指针练习题2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="dm010_二级指针练习题02.cpp">
-=======
-    <ClCompile Include="dm001_test1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm002_test2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm003_test3.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm004_递归逆序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm005_二级指针输入第一种模型.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm006_二级指针输入第三种模型.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm007_玩转多级指针.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm008_二级指针习题1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm010_二级指针练习题3.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dm011_定义数组指针.cpp">
->>>>>>> 1a4f887a3fa351b064cfcbd17daf68de13f069f7
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

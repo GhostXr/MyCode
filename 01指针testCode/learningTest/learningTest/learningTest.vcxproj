@@ -92,12 +92,10 @@
     <ClCompile Include="dm007_玩转多级指针.cpp" />
     <ClCompile Include="dm008_二级指针习题1.cpp" />
     <ClCompile Include="dm009_二级指针练习题2.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="dm010_二级指针练习题02.cpp" />
-=======
-    <ClCompile Include="dm010_二级指针练习题3.cpp" />
-    <ClCompile Include="dm011_定义数组指针.cpp" />
->>>>>>> 1a4f887a3fa351b064cfcbd17daf68de13f069f7
+    <ClCompile Include="dm011_二级指针练习题3.cpp" />
+    <ClCompile Include="dm012_定义数组指针.cpp" />
+    <ClCompile Include="dm013_二级指针强化练习.cpp" />
     <ClCompile Include="learningTest.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

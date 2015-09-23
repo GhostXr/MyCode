@@ -46,7 +46,7 @@ int findCount(char *myStr, char *buf, char *newStr, int *count)
 	return 0;
 }
 
-int main()
+int main010()
 {
 	int i = 0;
 	char *myStr = "abcd11111abcdggggggabcd33333abcdoooooabcd";

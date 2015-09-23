@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char **getMemo010(char **p, int num)
+char **getMemo011(char **p, int num)
 {
 	int i = 0;
 	char **pTemp = p;
@@ -14,7 +14,7 @@ char **getMemo010(char **p, int num)
 	return pTemp;
 }
 
-void freeMemo010(char **p, int num)
+void freeMemo011(char **p, int num)
 {
 	int i = 0;
 	if (p == NULL)
@@ -28,7 +28,7 @@ void freeMemo010(char **p, int num)
 	free(p);
 }
 
-int splitString010(char *myStr, const char splitStr, char ***myArray, int *count)
+int splitString011(char *myStr, const char splitStr, char ***myArray, int *count)
 {
 	char *str1 = myStr, *str2 = myStr;
 	char split = splitStr;
@@ -41,7 +41,7 @@ int splitString010(char *myStr, const char splitStr, char ***myArray, int *count
 		return -1;
 	}
 	
-	array = getMemo010(array, 10);
+	array = getMemo011(array, 10);
 
 	do
 	{
@@ -67,7 +67,7 @@ int splitString010(char *myStr, const char splitStr, char ***myArray, int *count
 	return 0;
 }
 
-int main010()
+int main011()
 {
 	int i = 0;
 	char *myStr = "abcdooooooabcb111111abcb55555abcb";
@@ -75,7 +75,7 @@ int main010()
 	int count = 0, rect = 0;
 	char **newArray = NULL  ;
 
-	rect = splitString010(myStr, splitStr, &newArray, &count);
+	rect = splitString011(myStr, splitStr, &newArray, &count);
 
 	if (rect != 0)
 	{
@@ -89,7 +89,7 @@ int main010()
 	}
 	printf("array count is %d ", count);
 
-	freeMemo010(newArray, 10);
+	freeMemo011(newArray, 10);
 
 	system("pause");
 	return 0;

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main()
+int main012()
 {
 	//先定义类型，通过类型定义变量
 	typedef int(MyArrayType)[5];

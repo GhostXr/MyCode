@@ -1,0 +1,41 @@
+﻿生成启动时间为 2015/9/23 18:25:22。
+     1>项目“E:\myDevelop\01指针testCode\learningTest\learningTest\learningTest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\learningTest.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\learningTest.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dm001_test1.cpp dm002_test2.cpp dm003_test3.cpp "dm004_递归逆序.cpp" "dm005_二级指针输入第一种模型.cpp" "dm006_二级指针输入第三种模型.cpp" "dm007_玩转多级指针.cpp" "dm008_二级指针习题1.cpp" "dm009_二级指针练习题2.cpp" "dm010_二级指针练习题02.cpp" "dm011_二级指针练习题3.cpp" "dm012_定义数组指针.cpp" "dm013_二级指针强化练习.cpp" learningTest.cpp
+         dm001_test1.cpp
+         dm002_test2.cpp
+     1>dm002_test2.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+         dm003_test3.cpp
+     1>dm003_test3.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+         dm004_递归逆序.cpp
+         dm005_二级指针输入第一种模型.cpp
+         dm006_二级指针输入第三种模型.cpp
+     1>dm006_二级指针输入第三种模型.cpp(32): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2012\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         dm007_玩转多级指针.cpp
+     1>dm007_玩转多级指针.cpp(14): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2012\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         dm008_二级指针习题1.cpp
+     1>dm008_二级指针习题1.cpp(18): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2012\VC\include\string.h(191) : 参见“strncpy”的声明
+         dm009_二级指针练习题2.cpp
+     1>dm009_二级指针练习题2.cpp(113): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2012\VC\include\string.h(191) : 参见“strncpy”的声明
+         dm010_二级指针练习题02.cpp
+     1>dm010_二级指针练习题02.cpp(33): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2012\VC\include\string.h(191) : 参见“strncpy”的声明
+         dm011_二级指针练习题3.cpp
+     1>dm011_二级指针练习题3.cpp(53): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2012\VC\include\string.h(191) : 参见“strncpy”的声明
+     1>dm011_二级指针练习题3.cpp(74): warning C4305: “初始化”: 从“int”到“char”截断
+     1>dm011_二级指针练习题3.cpp(74): warning C4309: “初始化”: 截断常量值
+         dm012_定义数组指针.cpp
+         dm013_二级指针强化练习.cpp
+         learningTest.cpp
+     1>已完成生成项目“E:\myDevelop\01指针testCode\learningTest\learningTest\learningTest.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.47
