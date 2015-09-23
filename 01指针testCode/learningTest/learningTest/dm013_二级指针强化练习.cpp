@@ -33,10 +33,29 @@ char** getMemo013(int num)
 
 	for(i = 0; i < num; i++)
 	{
-		array[i] = (char *)malloc(64);
+		array[i] = (char *)malloc(128);
 	}
 
 	return array;
+}
+
+void freeArray(char ***array, int num)
+{
+	int i = 0;
+	char **temp = *array;
+	if (array == NULL)
+	{
+		return;
+	}
+	for(i = 0; i < num; i ++)
+	{
+		if (temp[i] != NULL)
+		{
+			free(temp[i]);
+		}
+	}
+	free(temp);
+	*array = NULL;
 }
 
 int mergerStr(char *array1[], int num1, char array2[10][20], int num2, char ***array3)
@@ -47,8 +66,11 @@ int mergerStr(char *array1[], int num1, char array2[10][20], int num2, char ***a
 	}
 	char ** buf1 = array1;
 	char ** buf3 = NULL;
+	int tempLen = 0;
 
-	buf3 = getMemo013(num1 + num2);
+	buf3 = (char **)malloc(sizeof(char *) * (num1 + num2));
+
+	//memset(buf3, 0, sizeof(char *) * (num1 + num2));
 
 	if (buf3 == NULL)
 	{
@@ -61,7 +83,9 @@ int mergerStr(char *array1[], int num1, char array2[10][20], int num2, char ***a
 	{
 		if(array1[i] != NULL)
 		{
-			buf3[j] = array1[i];
+			tempLen = strlen(array1[i]) + 1;
+			buf3[j] = (char *)malloc(tempLen * sizeof(char));
+			strcpy(buf3[j], array1[i]);
 			j ++;
 		}
 	}
@@ -70,6 +94,8 @@ int mergerStr(char *array1[], int num1, char array2[10][20], int num2, char ***a
 	{
 		if(array2[i] != NULL)
 		{
+			tempLen = strlen(array2[i]) + 1;
+			buf3[j] = (char *)malloc(tempLen * sizeof(char));
 			strcpy(buf3[j], array2[i]);
 			j ++;
 		}
@@ -84,7 +110,7 @@ int main()
 {
 	int i = 0, rect = 0;
 	char *array1[] = {"aaaaa","dddd","wwww","11111",};
-	char array2[10][20] = {"11111","66666","55555","333333",};
+	char array2[10][20] = {"22222","66666","55555","333333",};
 	char **array3 = NULL;
 
 	int num = 4;
@@ -102,8 +128,10 @@ int main()
 
 	for (i = 0; i < (num + num2); i++)
 	{
-		printf(" %s", array3[i]);
+		printf(" %s \n", array3[i]);
 	}
+	
+	freeArray(&array3, num + num2);
 
 	system("pause");
 	return 0;

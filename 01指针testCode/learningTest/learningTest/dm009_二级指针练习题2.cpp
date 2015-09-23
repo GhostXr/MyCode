@@ -127,7 +127,7 @@ int splitString009(char *myStr, const char splitStr, char ***myArray, int *count
 	return 0;
 }
 
-int main009()
+int main9()
 {
 	int i = 0;
 	char *myStr = "asdga,dgdn,sdhrn,sdfeyrjt,sehety,sth,";
