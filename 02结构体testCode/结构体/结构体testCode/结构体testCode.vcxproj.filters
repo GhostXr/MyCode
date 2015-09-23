@@ -35,5 +35,8 @@
     <ClCompile Include="dm001_结构体基本操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dm003_结构体套二级指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -70,27 +70,29 @@ int main01()
 int copyStruct(Teacher to, Teacher from)
 {
 	to = from;
+	return 0;
 }
 
 
 int copyStruct002(Teacher *to, Teacher *from)
 {
 	*to = *from;
+	return 0;
 }
 
 
-int main()
+int main001()
 {
 	struct Teacher t1 = {"aaaa", 001, "ÄÐ"};
 
-	Teacher t2;
+	/*Teacher t2;
 	Teacher t3;
 
 	t2 = t1;
+*/
+	//printf("t2.name %s\n", t2.name);
 
-	printf("t2.name %s\n", t2.name);
-
-	copyStruct(t3, t1);
+	//copyStruct(t3, t1);
 
 	printf("hello... \n");
 	system("pause");
