@@ -104,7 +104,7 @@ void freeTeacher(Teacher **teacher, int num)
 	*teacher = NULL;
 }
 
-int main()
+int main002()
 {
 	Teacher *teacher;
 	int rect = 0, i = 0, j = 0, num = 1;
