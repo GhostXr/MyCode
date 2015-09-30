@@ -1,0 +1,5 @@
+﻿  cfg_op.cpp
+d:\vs2012\vc\include\stdlib.h(20): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+          命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
+03配置文件读写项目.obj : error LNK2019: 无法解析的外部符号 _WriteCfgItem，该符号在函数 "int __cdecl TWriteCfg(void)" (?TWriteCfg@@YAHXZ) 中被引用
+D:\myDevelop\TestCode\03配置文件读写项目\Debug\03配置文件读写项目.exe : fatal error LNK1120: 1 个无法解析的外部命令

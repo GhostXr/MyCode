@@ -38,7 +38,11 @@
     <ClCompile Include="dm002_结构体套一级和二级指针.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="dm003_结构体的深拷贝和浅拷贝.cpp">
+=======
+    <ClCompile Include="dm003_结构体的深copy和浅copy、.cpp">
+>>>>>>> 9821daa2616fe932a0c3da2e97f2fc17ccacf0ec
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

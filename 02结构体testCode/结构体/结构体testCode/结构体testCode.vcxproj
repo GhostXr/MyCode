@@ -85,7 +85,11 @@
   <ItemGroup>
     <ClCompile Include="dm001_结构体基本操作.cpp" />
     <ClCompile Include="dm002_结构体套一级和二级指针.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="dm003_结构体的深拷贝和浅拷贝.cpp" />
+=======
+    <ClCompile Include="dm003_结构体的深copy和浅copy、.cpp" />
+>>>>>>> 9821daa2616fe932a0c3da2e97f2fc17ccacf0ec
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
