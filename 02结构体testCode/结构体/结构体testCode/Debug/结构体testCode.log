@@ -1,5 +1,20 @@
+<<<<<<< Updated upstream
 ﻿  dm003_结构体的深copy和浅copy、.cpp
 d:\vs2012\vc\include\stdlib.h(20): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
           命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
 d:\mydevelop\testcode\02结构体testcode\结构体\结构体testcode\dm003_结构体的深copy和浅copy、.cpp(10): warning C4091: “typedef ”: 没有声明变量时忽略“Teeacher”的左侧
+=======
+﻿  stdafx.cpp
+  结构体testCode.cpp
+  dm002_结构体做函数参数.cpp
+d:\vs2012\vc\include\stdlib.h(20): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+          命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
+d:\mydevelop\testcode\02结构体testcode\结构体\结构体testcode\dm002_结构体做函数参数.cpp(10): warning C4091: “typedef ”: 没有声明变量时忽略“Teacher”的左侧
+  dm001_结构体基本操作.cpp
+d:\vs2012\vc\include\stdlib.h(20): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+          命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
+d:\mydevelop\testcode\02结构体testcode\结构体\结构体testcode\dm001_结构体基本操作.cpp(19): warning C4091: “typedef ”: 没有声明变量时忽略“Teacher2”的左侧
+d:\mydevelop\testcode\02结构体testcode\结构体\结构体testcode\dm001_结构体基本操作.cpp(57): warning C4101: “t2”: 未引用的局部变量
+  正在生成代码...
+>>>>>>> Stashed changes
   结构体testCode.vcxproj -> D:\myDevelop\TestCode\02结构体testCode\结构体\Debug\结构体testCode.exe

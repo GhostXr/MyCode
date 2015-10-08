@@ -67,7 +67,7 @@ int main01()
 	return 0;
 }
 
-int copyStruct(Teacher to, Teacher from)
+void copyStruct(Teacher to, Teacher from)
 {
 	to = from;
 	return 0;
@@ -85,13 +85,23 @@ int main001()
 {
 	struct Teacher t1 = {"aaaa", 001, "ÄÐ"};
 
+<<<<<<< Updated upstream
 	/*Teacher t2;
 	Teacher t3;
+=======
+	Teacher t2;
+	//Teacher t3 = {0};
+>>>>>>> Stashed changes
 
 	t2 = t1;
 */
 	//printf("t2.name %s\n", t2.name);
 
+<<<<<<< Updated upstream
+=======
+	printf("t2.name %s\n", t2.name);
+
+>>>>>>> Stashed changes
 	//copyStruct(t3, t1);
 
 	printf("hello... \n");
