@@ -18,12 +18,54 @@
     <ClInclude Include="MyTeacher.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCricle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyTeacher.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="mainYeacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCricle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRectangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dm01_构造函数和析构函数练习题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dm02_构造函数中调用构造函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dm03_testMyArray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

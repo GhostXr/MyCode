@@ -76,11 +76,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="MyArray.h" />
+    <ClInclude Include="MyCricle.h" />
+    <ClInclude Include="MyPoint.h" />
+    <ClInclude Include="MyRectangle.h" />
     <ClInclude Include="MyTeacher.h" />
+    <ClInclude Include="MyTree.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dm01_构造函数和析构函数练习题.cpp" />
+    <ClCompile Include="dm02_构造函数中调用构造函数.cpp" />
+    <ClCompile Include="dm03_testMyArray.cpp" />
+    <ClCompile Include="mainPoint.cpp" />
     <ClCompile Include="mainYeacher.cpp" />
+    <ClCompile Include="MyArray.cpp" />
+    <ClCompile Include="MyCricle.cpp" />
+    <ClCompile Include="MyPoint.cpp" />
+    <ClCompile Include="MyRectangle.cpp" />
     <ClCompile Include="MyTeacher.cpp" />
+    <ClCompile Include="MyTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

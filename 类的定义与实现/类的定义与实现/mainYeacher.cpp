@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void main()
+void main01()
 {
 	MyTeacher teacher;
 	teacher.setAge(100);
