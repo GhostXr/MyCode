@@ -7,17 +7,17 @@ MyArray::MyArray(int length)
 	this->myLength = length;
 }
 
-MyArray::MyArray(const MyArray& myA)
-{
-	int i = 1;
-	this->myLength = myA.myLength;
-	this->mySpace = new int[myA.myLength];
-
-	for (i = 1; i < myA.myLength; i++)
-	{
-		mySpace[i] = myA.mySpace[i];
-	}
-}
+//MyArray::MyArray(const MyArray& myA)
+//{
+//	int i = 1;
+//	this->myLength = myA.myLength;
+//	this->mySpace = new int[myA.myLength];
+//
+//	for (i = 1; i < myA.myLength; i++)
+//	{
+//		mySpace[i] = myA.mySpace[i];
+//	}
+//}
 
 int MyArray::length()
 {
@@ -41,4 +41,24 @@ int MyArray::getData(int index)
 MyArray::~MyArray(void)
 {
 	delete []mySpace;
+}
+
+//жиди[]
+int& MyArray::operator[](int i)
+{
+	return mySpace[i];
+}
+
+
+bool MyArray::operator!=(MyArray &a)
+{
+	int i = 0;
+	for(i = 0; i < this->myLength; i++)
+	{
+		if (this->mySpace[i] != a[i])
+		{
+			return true;
+		}
+	}
+	return false;
 }

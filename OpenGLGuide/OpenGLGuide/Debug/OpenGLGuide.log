@@ -1,0 +1,8 @@
+﻿  triangles.cpp
+d:\mydevelop\testcode\openglguide\openglguide\triangles.cpp(32): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+d:\mydevelop\testcode\openglguide\openglguide\triangles.cpp(33): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+d:\mydevelop\testcode\openglguide\openglguide\triangles.cpp(34): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+d:\mydevelop\testcode\openglguide\openglguide\triangles.cpp(36): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+d:\mydevelop\testcode\openglguide\openglguide\triangles.cpp(37): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+d:\mydevelop\testcode\openglguide\openglguide\triangles.cpp(38): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+  OpenGLGuide.vcxproj -> D:\myDevelop\TestCode\OpenGLGuide\Debug\OpenGLGuide.exe
