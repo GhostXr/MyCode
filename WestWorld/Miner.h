@@ -2,6 +2,7 @@
 #define __MINER__
 
 #include "BaseGameEntity.h"
+#include "State.h"
 
 
 class Miner : BaseGameEntity

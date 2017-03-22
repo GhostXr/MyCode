@@ -11,7 +11,9 @@ public:
 	
 	virtual void Enter(Miner *)= 0;
 
-private:
+	virtual void Execute(Miner *)= 0;
+
+	virtual void Exit(Miner *)= 0;
 
 };
 

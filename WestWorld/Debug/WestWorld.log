@@ -1,0 +1,11 @@
+﻿  Miner.cpp
+d:\mydevelop\testcode\westworld\miner.h(14): error C2061: 语法错误: 标识符“State”
+d:\mydevelop\testcode\westworld\miner.h(17): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+d:\mydevelop\testcode\westworld\miner.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+d:\mydevelop\testcode\westworld\miner.h(19): error C2146: 语法错误: 缺少“;”(在标识符“m_Location”的前面)
+d:\mydevelop\testcode\westworld\miner.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+d:\mydevelop\testcode\westworld\miner.cpp(4): error C2600: “Miner::~Miner”: 不能定义编译器生成的特殊成员函数(必须首先在类中声明)
+d:\mydevelop\testcode\westworld\miner.cpp(11): error C2065: “m_pCurrentState”: 未声明的标识符
+d:\mydevelop\testcode\westworld\miner.cpp(13): error C2065: “m_pCurrentState”: 未声明的标识符
+d:\mydevelop\testcode\westworld\miner.cpp(13): error C2227: “->Execute”的左边必须指向类/结构/联合/泛型类型
+          类型是“'unknown-type'”
