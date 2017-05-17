@@ -76,10 +76,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="dm01_线性表基本结构.cpp" />
+    <ClCompile Include="CircleList.cpp" />
+    <ClCompile Include="dm05_树的创建和操作.cpp" />
+    <ClCompile Include="LinkList.cpp" />
+    <ClCompile Include="LinkStack.cpp" />
+    <ClCompile Include="SeqLink.cpp" />
     <ClCompile Include="SeqList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CircleList.h" />
+    <ClInclude Include="LinkList.h" />
+    <ClInclude Include="LinkStack.h" />
+    <ClInclude Include="LinkStackNode.h" />
+    <ClInclude Include="SeqLink.h" />
     <ClInclude Include="SeqList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,2 +1,4 @@
-﻿  SeqList.cpp
+﻿  dm05_树的创建和操作.cpp
+d:\mydevelop\testcode\数据结构学习\dm05_树的创建和操作.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\vs2012\vc\include\stdio.h(290) : 参见“scanf”的声明
   数据结构学习.vcxproj -> D:\myDevelop\TestCode\数据结构学习\Debug\数据结构学习.exe

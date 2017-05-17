@@ -3,11 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct _tag_SeeList
+typedef struct _tag_SeqList
 {
 	int length;
 	int capacity;
-	unsigned int *node;
+	unsigned int **node;
 }TSeqList;
 
 SeqList* seqListCreate(int num)
@@ -20,12 +20,14 @@ SeqList* seqListCreate(int num)
 	}
 	memset(temp, 0, sizeof(TSeqList));
 
-	temp->node = (unsigned int *)malloc(sizeof(unsigned int *)*num);
+	temp->node = (unsigned int **)malloc(sizeof(unsigned int *)*num);
 	if (temp->node == NULL)
 	{
 		printf("malloc temp->node is error");
 		return NULL;
 	}
+	temp->capacity = num;
+	temp->length = 0;
 
 	return temp;
 }
@@ -83,7 +85,7 @@ int seqListCapaticy(SeqList* list)
 int seqListInsert(SeqList* list, SeqListNode* node, int pos)
 {
 	TSeqList *tlist = NULL;
-	if (list == NULL || node != NULL || pos > 0)
+	if (list == NULL || node == NULL || pos < 0)
 	{
 		return -1;
 	}
@@ -103,7 +105,7 @@ int seqListInsert(SeqList* list, SeqListNode* node, int pos)
 	{
 		tlist->node[i] = tlist->node[i-1];
 	}
-	tlist->node[i] = (unsigned int)node;
+	tlist->node[i] = (unsigned int*)node;
 	tlist->length ++;
 
 	return 0;
@@ -112,7 +114,7 @@ int seqListInsert(SeqList* list, SeqListNode* node, int pos)
 SeqListNode* seqListGet(SeqList* list, int pos)
 {
 	TSeqList *tlist = NULL;
-	if (list == NULL || pos > 0)
+	if (list == NULL || pos < 0)
 	{
 		return NULL;
 	}
@@ -124,7 +126,7 @@ SeqListNode* seqListGet(SeqList* list, int pos)
 SeqListNode* seqListDelete(SeqList* list, int pos)
 {
 	TSeqList *tlist = NULL;
-	if (list == NULL || pos > 0)
+	if (list == NULL || pos < 0)
 	{
 		return NULL;
 	}

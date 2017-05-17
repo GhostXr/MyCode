@@ -15,15 +15,42 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dm01_线性表基本结构.cpp">
+    <ClCompile Include="SeqList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SeqList.cpp">
+    <ClCompile Include="LinkList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SeqLink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dm05_树的创建和操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SeqList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkStackNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqLink.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
